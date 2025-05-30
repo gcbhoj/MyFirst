@@ -18,7 +18,7 @@ const InputBox = ({
       />
       <label
         htmlFor={name}
-        className="absolute left-3 text-gray-500 text-sm transition-all
+        className="absolute left-3  text-sm transition-all
           peer-placeholder-shown:top-4
           peer-placeholder-shown:text-sm
           peer-placeholder-shown:font-normal
@@ -29,7 +29,7 @@ const InputBox = ({
           peer-not-placeholder-shown:top-[-20px]
           peer-not-placeholder-shown:text-xs
           peer-not-placeholder-shown:font-bold
-          peer-not-placeholder-shown:text-gray-600"
+          peer-not-placeholder-shown:text-gray-600 font-serif text-[#262322]"
       >
         {label}
       </label>
