@@ -14,7 +14,7 @@ const InputBox = ({
         name={name}
         id={name}
         placeholder={label}
-        className={`peer block w-full appearance-none border border-gray-300 rounded-md px-3 pt-4 pb-2 text-sm placeholder-transparent focus:outline-none focus:ring-2 focus:ring-gray-500 ${height} text-center shadow-gray-300 shadow-lg font-serif tracking-[.13em] `}
+        className={`peer block w-full appearance-none border border-gray-300 rounded-md px-3 pt-4 pb-2 text-sm placeholder-transparent focus:outline-none focus:ring-2 focus:ring-gray-500 ${height} text-center shadow-gray-300 shadow-lg font-serif tracking-[.13em] bg-stone-300  flex flex-wrap`}
       />
       <label
         htmlFor={name}
