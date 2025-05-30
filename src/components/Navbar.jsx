@@ -21,8 +21,9 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="relative border-4 border-double border-[rgba(93,163,153,0.8)] mt-5 m-1 max-w-full h-16 flex items-center rounded-2xl justify-end bg-gradient-to-bl from-[rgba(147,104,183,0.8)] to-[rgba(172,203,225,0.8)] shadow-md shadow-[rgba(245,239,255,.6)] flex-wrap">
-        <div className="flex flex-wrap items-center gap-4 mr-4 ">
+      <div className="relative border-4 border-double border-[rgba(93,163,153,0.8)] mt-5 m-1 max-w-full h-16 rounded-2xl bg-gradient-to-bl from-[rgba(147,104,183,0.8)] to-[rgba(172,203,225,0.8)] shadow-md shadow-[rgba(245,239,255,.6)] flex items-center justify-end ">
+        <div></div>
+        <div className="flex flex-wrap items-center gap-4">
           <Button width="w-20" height="h-12" label="Home" border="border-0" />
           <Button width="w-20" height="h-12" label="Games" border="border-0" />
           <Button

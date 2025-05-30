@@ -9,7 +9,7 @@ const Auth = () => {
         <h3 className="font-serif italic tracking-[.13em] font-black text-[12px] text-[#262322] mb-4 text-center">
           Enter your Email
           <br />
-          <span className="mt-2 block">Password to Sign In</span>
+          <span className="mt-2 block">Password to Sign Up</span>
         </h3>
 
         <InputBox

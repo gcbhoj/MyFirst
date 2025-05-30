@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="border 1 bg-[#E3E4DB]">
       <Navbar />
-      <Auth />
+      {/* <Auth /> */}
     </div>
   );
 };
