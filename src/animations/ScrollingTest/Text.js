@@ -5,7 +5,7 @@ export class Text {
     this.x = this.canvas.width;
     this.y = this.canvas.height / 2;
     this._text = text;
-    this.speed = 1;
+    this.speed = 0.65;
     this.fontSize = "20";
     this.fontFamily = "Bona Nova SC";
   }

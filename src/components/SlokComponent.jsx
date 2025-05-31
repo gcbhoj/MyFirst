@@ -2,8 +2,8 @@ import React from "react";
 
 const SlokComponent = () => {
   return (
-    <div className="slok-container border-1 max-w-full m-1 h-12 rounded-2xl overflow-hidden bg-gray-400">
-      <canvas id="slokCanvas" className="w-full h-full block"></canvas>
+    <div className="slok-container border-1 ml-1 mr-1 h-12 rounded-2xl overflow-hidden bg-gray-400 fade rounded-t-none">
+      <canvas id="slokCanvas" className="w-full h-full block "></canvas>
     </div>
   );
 };
