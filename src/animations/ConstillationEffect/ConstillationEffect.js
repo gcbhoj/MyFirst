@@ -15,10 +15,12 @@ window.addEventListener("load", () => {
     requestAnimationFrame(animate);
   }
 
-    animate();
-    
-    window.addEventListener("resize", function () {
-        effect.width = canvas.width
-        effect.height = canvas.height
-    })
+  animate();
+
+  window.addEventListener("resize", function () {
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+    effect.width = canvas.offsetWidth;
+    effect.height = canvas.offsetHeight;
+  });
 });

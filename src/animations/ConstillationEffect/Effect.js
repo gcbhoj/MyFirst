@@ -6,7 +6,7 @@ export class Effects {
     this.width = this.canvas.width;
     this.height = this.canvas.height;
     this.ballParticles = [];
-    this.numberOfBallParticles = 35;
+    this.numberOfBallParticles = 10;
     this.colorAdjustment = 1;
     this.createBallParticles();
   }

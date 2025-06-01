@@ -6,7 +6,7 @@ const Button = ({
   width = "",
   background = "",
   icon = "",
-  margin = "m-5",
+  margin = "m-0",
   border = "",
   onClick, // just declare the prop normally
 }) => {
