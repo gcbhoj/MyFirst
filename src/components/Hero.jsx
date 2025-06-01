@@ -3,7 +3,7 @@ import SlokComponent from "./SlokComponent.jsx";
 
 const Hero = () => {
   return (
-    <div className="w-full h-55 m-1 rounded-b-none flex flex-col">
+    <div className="w-full h-55 m-1 rounded-b-none flex flex-col mb-0">
       {/* Relative container to position text over canvas */}
       <div className="relative rounded-2xl h-40 mt-1 ml-1 mr-1 bg-gray-400 rounded-b-none overflow-hidden shadow-sm ">
         {/* Header with logo and text at top */}

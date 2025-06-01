@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Top Section */}
         <div className="m-.5 mb-0 grid grid-cols-[10rem_1fr_6rem]">
           {/* Left Column */}
-          <div className="grid grid-cols-3 px-2">
+          <div className="grid grid-cols-3 px-2 m-2">
             <FooterTopLeft />
           </div>
 
@@ -20,13 +20,13 @@ const Footer = () => {
           </div>
 
           {/* Right Column */}
-          <div className="p-2 flex flex-col font-serif text-[14px] justify-center items-end pt-0 gap-1">
+          <div className="p-2 flex flex-col font-serif text-[14px] justify-center items-end pt-0 gap-1 m-2">
             <FooterTopRight />
           </div>
         </div>
 
         {/* Bottom Section */}
-        <div className="flex items-center justify-center mb-0 mt-0 h-full">
+        <div className="flex items-center justify-center m-.50 h-full">
           <p className="text-[12px] text-gray-600 font-serif italic">
             &copy; {new Date().getFullYear()} Samskrita Bharati. All rights
             reserved.

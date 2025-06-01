@@ -15,8 +15,9 @@ const FooterTopLeft = () => {
           height="h-10"
           margin="m-0"
           border="border-0"
+          hoverBackground="hover:text-rose-300"
         />
-        <span className="absolute left-full top-1/2 -translate-y-1/2 ml-1 px-1 py-1 text-sm text-white bg-black rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap z-10">
+        <span className="absolute left-full top-1/5 -translate-y-1/2 ml-1 px-1 py-1 text-sm text-white bg-black rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap z-10">
           Call Us
         </span>
       </div>

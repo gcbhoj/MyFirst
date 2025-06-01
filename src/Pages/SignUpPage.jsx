@@ -4,7 +4,7 @@ import Button from "../components/UIComponents/Button";
 
 const Auth = () => {
   return (
-    <div className=" mt-25 flex items-center justify-center">
+    <div className=" mt-25 flex flex-wrap items-center justify-center p-5">
       <div className="flex flex-col items-center justify-center w-96 p-6 border border-[#F1F7ED] shadow-md bg-[#F1F7ED] rounded-4xl">
         <h3 className="font-serif italic tracking-[.13em] font-black text-[12px] text-[#262322] mb-4 text-center">
           Enter your Email
@@ -34,6 +34,8 @@ const Auth = () => {
           height="h-10"
           background="bg-stone-600"
           border="border-1"
+          margin="m-10
+          "
         />
       </div>
     </div>
