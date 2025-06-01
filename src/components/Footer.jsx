@@ -5,7 +5,7 @@ import Button from "../components/UIComponents/Button";
 
 const Footer = () => {
   return (
-    <footer className="m-1 h-36 bg-[rgba(190,206,241,0.3)] rounded-2xl shadow-md shadow-gray-500">
+    <footer className="m-1 h-36 bg-gradient-to-bl from-zinc-400 to-[rgba(172,203,225,0.9)] shadow-md shadow-[rgba(245,239,255,.6)] rounded-2xl">
       <div className="grid grid-rows-[1fr_2rem] h-full">
         {/* Top Section */}
         <div className="m-.5 mb-0 grid grid-cols-[10rem_1fr_6rem]">

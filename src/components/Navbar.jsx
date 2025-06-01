@@ -20,7 +20,7 @@ const Navbar = () => {
   }, [isSettingsMenuOpen]);
 
   return (
-    <div className="relative border-4 border-double border-[rgba(93,163,153,0.8)] m-0.5 max-w-full h-20 rounded-2xl bg-gradient-to-bl from-[rgba(147,104,183,0.8)] to-[rgba(172,203,225,0.8)] shadow-md shadow-[rgba(245,239,255,.6)] flex items-center justify-end mb-0 ">
+    <div className="relative  border-[rgba(93,163,153,0.8)] m-0.5 max-w-full h-20 rounded-2xl bg-gradient-to-bl from-zinc-400 to-[rgba(172,203,225,0.9)] shadow-md shadow-[rgba(245,239,255,.6)] flex items-center justify-end mb-0 ">
       <div className="flex flex-wrap items-center gap-4">
         <Link to={"/"}>
           <Button width="w-20" height="h-12" label="Home" border="border-0" />

@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <>
       <Hero />
-      <div className="grid grid-cols-4 grid-rows-4 gap-2 p-4 border border-purple-800">
+      <div className="grid grid-cols-4 grid-rows-4 gap-2 p-4">
         <div className="col-span-3 row-span-4 bg-gray-100 p-4 rounded shadow">
           <HomePageContent />
         </div>

@@ -6,8 +6,8 @@ import HomePageFinalContent from "./HomePageFinalContent.jsx";
 const HomePageContent = () => {
   return (
     <>
-      <p className="border font-serif tracking-[0.025rem] text-justify first-letter:float-left first-letter:mr-3 first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 first-line:tracking-widest first-line:uppercase m-1 p-4 ">
-        Welcome to Samskrita Bharati Canada's Game Portal — your gateway to
+      <p className="font-serif tracking-[0.025rem] text-justify first-letter:float-left first-letter:mr-3 first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 first-line:tracking-widest first-line:uppercase m-1 p-4 ">
+        Welcome to SamskritaBharati Canada's Game Portal — your gateway to
         mastering Sanskrit in an exciting and immersive way! Whether you're just
         starting your Sanskrit journey or looking to deepen your fluency, our
         interactive games are designed to make learning fun, effective, and

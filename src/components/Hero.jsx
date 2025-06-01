@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import SlokComponent from "./SlokComponent.jsx";
 import { Effects } from "../animations/ConstillationEffect/Effect.js";
+import HeroMiddle from "./HeroMiddle.jsx";
 
 const Hero = () => {
   useEffect(() => {
@@ -37,16 +38,15 @@ const Hero = () => {
 
   return (
     <div className="w-full h-65 m-1 rounded-b-none flex flex-col mb-0 shadow-sm shadow-gray-300">
-      <div className="relative rounded-2xl h-40 mt-1 ml-1 mr-1 bg-zinc-800 rounded-b-none overflow-hidden shadow-sm">
-        <div className="absolute top-2 left-0 right-0 px-4 flex justify-between items-center z-10 text-white font-bold text-xl w-full">
-          <div className="border-2 w-32 h-35 rounded-full flex items-center justify-center">
+      <div className="relative rounded-2xl h-40 mt-1 ml-1 mr-1 bg-zinc-600 rounded-b-none overflow-hidden shadow-sm">
+        <div className="absolute top-2 left-0 right-0 px-4 flex items-center z-10 text-white font-bold text-xl w-full">
+          <div className="border-2 w-36 h-35 rounded-full flex items-center justify-center">
             <h3>Add logo hero</h3>
           </div>
-          <div className="border-2 w-40 h-16 flex items-center justify-center">
-            <h3>Add something here</h3>
+          <div className="h-35 w-full m-1 p-1 flex flex-col flex-wrap">
+            <HeroMiddle/>
           </div>
-          <div className="">more here</div>
-        </div>
+                </div>
 
         <canvas id="constillationEffect" className="w-full h-full z-0"></canvas>
       </div>
