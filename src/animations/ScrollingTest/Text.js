@@ -33,7 +33,7 @@ export class Text {
 
   draw(context) {
     context.font = `${this.fontSize}px ${this.fontFamily}`;
-    context.fillStyle = "rgba(49,30,16,.3)";
+    context.fillStyle = "snow";
     context.textBaseline = "middle";
     context.fillText(this._text, this.x, this.y);
   }

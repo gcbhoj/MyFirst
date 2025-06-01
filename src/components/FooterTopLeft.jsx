@@ -13,7 +13,7 @@ const FooterTopLeft = () => {
           icon={<FaPhone />}
           width="w-10"
           height="h-10"
-          margin="m-0"
+          margin="m-2"
           border="border-0"
           hoverBackground="hover:text-rose-300"
         />
@@ -27,7 +27,7 @@ const FooterTopLeft = () => {
           width="w-10"
           height="h-10"
           icon={<FaMailchimp />}
-          margin="m-0"
+          margin="m-2"
           border="border-0"
           hoverBackground="hover:text-rose-300"
         />
@@ -41,7 +41,7 @@ const FooterTopLeft = () => {
           width="w-10"
           height="h-10"
           icon={<VscFeedback />}
-          margin="0"
+          margin="m-2"
           border="border-0"
           hoverBackground="hover:text-rose-300"
         />
