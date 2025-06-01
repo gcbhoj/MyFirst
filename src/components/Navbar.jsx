@@ -23,19 +23,20 @@ const Navbar = () => {
     <div className="relative border-4 border-double border-[rgba(93,163,153,0.8)] m-0.5 max-w-full h-20 rounded-2xl bg-gradient-to-bl from-[rgba(147,104,183,0.8)] to-[rgba(172,203,225,0.8)] shadow-md shadow-[rgba(245,239,255,.6)] flex items-center justify-end ">
       <div className="flex flex-wrap items-center gap-4">
         <Link to={"/"}>
-          <Button width="w-12" height="h-12" label="Home" border="border-0" />
+          <Button width="w-20" height="h-12" label="Home" border="border-0" />
         </Link>
+        <Button width="w-20" height="h-12" label="about" border="border-0" />
         <Link to={"/games"}>
-          <Button width="w-12" height="h-12" label="Games" border="border-0" />
+          <Button width="w-20" height="h-12" label="Games" border="border-0" />
         </Link>
 
-        <Button width="w-12" height="h-12" label="gallery" border="border-0" />
-        <Button width="w-12" height="h-12" label="events" border="border-0" />
+        <Button width="w-20" height="h-12" label="gallery" border="border-0" />
+        <Button width="w-20" height="h-12" label="events" border="border-0" />
         <Link to={"/dashboard"}>
-          <Button width="w-12" height="h-12" label="dash" border="border-0" />
+          <Button width="w-20" height="h-12" label="dash" border="border-0" />
         </Link>
         <Link to={"/signUp"}>
-          <Button width="w-12" height="h-12" label="signup" border="border-0" />
+          <Button width="w-20" height="h-12" label="signup" border="border-0" />
         </Link>
 
         {/* Settings Button + Dropdown */}
@@ -61,13 +62,6 @@ const Navbar = () => {
               }}
               onMouseLeave={() => setIsSettingsMenuOpen(false)}
             >
-              <Button
-                label="about"
-                width="w-full"
-                height="h-8"
-                margin="m-0"
-                background="bg-stone-600"
-              />
               <Button
                 label="profile settings"
                 width="w-full"
