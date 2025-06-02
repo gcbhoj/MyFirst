@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa";
-import Button from "./UIComponents/Button.jsx";
+import Button from "../UIComponents/Button.jsx";
 
 const HomePageFAQ2 = () => {
   const [showList, setShowList] = useState(false);

@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import Button from "./UIComponents/Button";
+import Button from "../UIComponents/Button";
 import { IoMdSettings } from "react-icons/io";
 import { NavLink } from "react-router-dom";
 

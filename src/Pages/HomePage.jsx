@@ -1,7 +1,7 @@
 import React from "react";
-import Hero from "../components/Hero.jsx";
+import Hero from "../components/HeroComponent/Hero.jsx";
 import UpcomingEvents from "../components/UpcomingEvents.jsx";
-import HomePageContent from "../components/HomePageContent.jsx";
+import HomePageContent from "../components/HomePageComponents/HomePageContent.jsx";
 
 const HomePage = () => {
   return (

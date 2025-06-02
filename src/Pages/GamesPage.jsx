@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../components/UIComponents/Button.jsx";
 import CategoryContainer from "../Layout/CategoryContainer.jsx";
 import games from "../games.json";
-import DummyHero from "../components/DummyHero.jsx";
+import DummyHero from "../components/HeroComponent/DummyHero.jsx";
 
 const GamesPage = () => {
   

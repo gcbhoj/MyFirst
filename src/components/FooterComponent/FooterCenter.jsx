@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Button from "../components/UIComponents/Button";
+import Button from "../UIComponents/Button";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { RiTelegram2Line } from "react-icons/ri";

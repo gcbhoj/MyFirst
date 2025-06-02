@@ -1,7 +1,6 @@
-import FooterTopLeft from "./FooterTopLeft.jsx";
-import FooterTopRight from "./FooterTopRight.jsx";
-import FooterCenter from "./FooterCenter.jsx";
-import Button from "../components/UIComponents/Button";
+import FooterTopLeft from "../FooterComponent/FooterTopLeft.jsx";
+import FooterTopRight from "../FooterComponent/FooterTopRight.jsx";
+import FooterCenter from "../FooterComponent/FooterCenter.jsx";
 
 const Footer = () => {
   return (

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaPhone } from "react-icons/fa";
 import { FaMailchimp } from "react-icons/fa6";
 import { VscFeedback } from "react-icons/vsc";
-import Button from "../components/UIComponents/Button";
+import Button from "../UIComponents/Button.jsx";
 
 const FooterTopLeft = () => {
   return (

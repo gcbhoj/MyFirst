@@ -1,7 +1,7 @@
 import React from "react";
 import InputBox from "../components/UIComponents/InputBox";
 import Button from "../components/UIComponents/Button";
-import DummyHero from "../components/DummyHero";
+import DummyHero from "../components/HeroComponent/Hero.jsx";
 
 const Auth = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./UIComponents/Button";
+import Button from "../UIComponents/Button";
 
 const SettingsMenu = () => {
   return (

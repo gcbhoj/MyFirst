@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../components/Hero";
+import Hero from "../components/HeroComponent/Hero.jsx";
 import Button from "../components/UIComponents/Button";
 import { Link } from "react-router-dom";
 

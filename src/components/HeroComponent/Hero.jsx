@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import SlokComponent from "./SlokComponent.jsx";
-import { Effects } from "../animations/ConstillationEffect/Effect.js";
+import SlokComponent from "../SlokComponent.jsx";
+import { Effects } from "../../animations/ConstillationEffect/Effect.js";
 import HeroMiddle from "./HeroMiddle.jsx";
 
 const Hero = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import CategoryContainer from "../Layout/CategoryContainer";
 import images from "../imagegallery.json";
-import DummyHero from "../components/DummyHero";
+import DummyHero from "../components/HeroComponent/DummyHero.jsx";
 
 const Gallery = () => {
   return (
