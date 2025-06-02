@@ -2,16 +2,13 @@ import React from "react";
 import Button from "../components/UIComponents/Button.jsx";
 import CategoryContainer from "../Layout/CategoryContainer.jsx";
 import games from "../games.json";
+import DummyHero from "../components/DummyHero.jsx";
 
 const GamesPage = () => {
+  
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Header */}
-      <div className="border p-2 flex flex-col items-center justify-center font-serif">
-        <h3 className="text-[20px] tracking-wide">
-          <strong>Welcome to SamskritaBharati Games</strong>
-        </h3>
-      </div>
+      <DummyHero statement="Dive into fun and learning with our exciting collection of games" />
 
       {/* Buttons */}
       <div className="border h-12 p-1 flex flex-wrap items-center justify-evenly">
