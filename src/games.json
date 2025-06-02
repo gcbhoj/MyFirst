@@ -1,0 +1,98 @@
+[
+  {
+    "categoryId": "100",
+    "category": "td",
+    "games": [
+      {
+        "gameId": "1",
+        "gameName": "crossword",
+        "gameLink": "https://zat.am/001-sbg/",
+        "thumbnail": "https://images.pexels.com/photos/31270596/pexels-photo-31270596/free-photo-of-bustling-scene-at-borough-market-london.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      },
+      {
+        "gameId": "2",
+        "gameName": "name please ?",
+        "gameLink": "https://tailwindcss.com/docs/text-overflow#truncating-text",
+        "thumbnail": "https://images.pexels.com/photos/31270596/pexels-photo-31270596/free-photo-of-bustling-scene-at-borough-market-london.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      },
+      {
+        "gameId": "3",
+        "gameName": "crossword",
+        "gameLink": "https://zat.am/007-sbg/",
+        "thumbnail": "https://images.pexels.com/photos/31270596/pexels-photo-31270596/free-photo-of-bustling-scene-at-borough-market-london.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      },
+      {
+        "gameId": "4",
+        "gameName": "sanskrit transliterator",
+        "gameLink": "https://zat.am/0037-sbg/",
+        "thumbnail": "https://images.pexels.com/photos/31270596/pexels-photo-31270596/free-photo-of-bustling-scene-at-borough-market-london.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      },
+      {
+        "gameId": "5",
+        "gameName": "sanskrit transliterator",
+        "gameLink": "https://zat.am/0037-sbg/",
+        "thumbnail": "https://images.pexels.com/photos/31270596/pexels-photo-31270596/free-photo-of-bustling-scene-at-borough-market-london.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      },
+      {
+        "gameId": "6",
+        "gameName": "bingo",
+        "gameLink": "https://zat.am/0038-sbg/",
+        "thumbnail": "https://images.pexels.com/photos/31270596/pexels-photo-31270596/free-photo-of-bustling-scene-at-borough-market-london.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      },
+      {
+        "gameId": "7",
+        "gameName": "analog clock",
+        "gameLink": "https://zat.am/0040-sbg/",
+        "thumbnail": "https://images.pexels.com/photos/31270596/pexels-photo-31270596/free-photo-of-bustling-scene-at-borough-market-london.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      },
+      {
+        "gameId": "8",
+        "gameName": "simple sentences",
+        "gameLink": "https://zat.am/0042-sbg/",
+        "thumbnail": "https://images.pexels.com/photos/31270596/pexels-photo-31270596/free-photo-of-bustling-scene-at-borough-market-london.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      }
+    ]
+  },
+  {
+    "categoryId": "101",
+    "category": "et",
+    "games": [
+      {
+        "gameId": "9",
+        "gameName": "snake and ladders",
+        "gameLink": "https://zat.am/003-sbg/",
+        "thumbnail": "https://images.pexels.com/photos/31270596/pexels-photo-31270596/free-photo-of-bustling-scene-at-borough-market-london.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      },
+      {
+        "gameId": "10",
+        "gameName": "learn basics",
+        "gameLink": "https://zat.am/0031-sbg/",
+        "thumbnail": "https://images.pexels.com/photos/31270596/pexels-photo-31270596/free-photo-of-bustling-scene-at-borough-market-london.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      },
+      {
+        "gameId": "11",
+        "gameName": "wordle",
+        "gameLink": "https://zat.am/0051-sbg/",
+        "thumbnail": "https://images.pexels.com/photos/31270596/pexels-photo-31270596/free-photo-of-bustling-scene-at-borough-market-london.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      },
+      {
+        "gameId": "12",
+        "gameName": "lakaara puzzle",
+        "gameLink": "https://zat.am/0052-sbg/",
+        "thumbnail": "https://images.pexels.com/photos/31270596/pexels-photo-31270596/free-photo-of-bustling-scene-at-borough-market-london.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      },
+      {
+        "gameId": "13",
+        "gameName": "shabd puzzle",
+        "gameLink": "https://zat.am/0053-sbg/",
+        "thumbnail": "https://images.pexels.com/photos/31270596/pexels-photo-31270596/free-photo-of-bustling-scene-at-borough-market-london.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      },
+      {
+        "gameId": "14",
+        "gameName": "shiva sutras",
+        "gameLink": "https://zat.am/0054-sbg/",
+        "thumbnail": "https://images.pexels.com/photos/31270596/pexels-photo-31270596/free-photo-of-bustling-scene-at-borough-market-london.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      }
+    ]
+  }
+]

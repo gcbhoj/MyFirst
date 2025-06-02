@@ -29,8 +29,15 @@ const Navbar = () => {
         <Link to={"/games"}>
           <Button width="w-20" height="h-12" label="Games" border="border-0" />
         </Link>
+        <Link to={"/gallery"}>
+          <Button
+            width="w-20"
+            height="h-12"
+            label="gallery"
+            border="border-0"
+          />
+        </Link>
 
-        <Button width="w-20" height="h-12" label="gallery" border="border-0" />
         <Button width="w-20" height="h-12" label="events" border="border-0" />
         <Link to={"/dashboard"}>
           <Button width="w-20" height="h-12" label="dash" border="border-0" />

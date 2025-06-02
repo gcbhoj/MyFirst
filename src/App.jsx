@@ -15,6 +15,7 @@ import AddGames from "./Pages/AddGames";
 import AddEvents from "./Pages/AddEvents";
 import AddImages from "./Pages/AddImages";
 import ViewFeedback from "./Pages/ViewFeedback";
+import Gallery from "./Pages/Gallery";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -28,6 +29,7 @@ const router = createBrowserRouter(
       <Route path="/addEvents" element={<AddEvents />} />
       <Route path="/addImages" element={<AddImages />} />
       <Route path="/viewFeedback" element={<ViewFeedback />} />
+      <Route path="/gallery" element={<Gallery />} />
     </Route>
   )
 );
