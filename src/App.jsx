@@ -11,7 +11,7 @@ import Auth from "./Pages/SignUpPage";
 import GamesPage from "./Pages/GamesPage";
 import Dashboard from "./Pages/Dashboard";
 import Feedback from "./Pages/Feedback";
-import AddGames from "./Pages/AddGames";
+import GamesPanel from "./Pages/GamesPanel";
 import AddEvents from "./Pages/AddEvents";
 import AddImages from "./Pages/AddImages";
 import ViewFeedback from "./Pages/ViewFeedback";
@@ -25,7 +25,7 @@ const router = createBrowserRouter(
       <Route path="/games" element={<GamesPage />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/feedback" element={<Feedback />} />
-      <Route path="/addGames" element={<AddGames />} />
+      <Route path="/gamesPanel" element={<GamesPanel />} />
       <Route path="/addEvents" element={<AddEvents />} />
       <Route path="/addImages" element={<AddImages />} />
       <Route path="/viewFeedback" element={<ViewFeedback />} />

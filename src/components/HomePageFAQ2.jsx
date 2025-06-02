@@ -20,7 +20,7 @@ const HomePageFAQ2 = () => {
       />
 
       {showList && (
-        <ul className="list-disc pl-8 pr-4 font-serif text-sm text-gray-800 space-y-3">
+        <ul className="list-disc pl-8 pr-4 font-serif text-sm text-gray-800 space-y-3 tracking-wide">
           <li>
             <strong>Designed by educatiors and Sanskrit scholars.</strong>
           </li>

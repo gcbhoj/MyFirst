@@ -21,7 +21,7 @@ const HomePageFAQ1 = () => {
       />
 
       {showList && (
-        <ul className="list-disc pl-8 pr-4 font-serif text-sm text-gray-800 space-y-3">
+        <ul className="list-disc pl-8 pr-4 font-serif text-sm text-gray-800 space-y-3 tracking-wide">
           <li>
             <strong>Engaging Games for All Levels:</strong> From basic alphabet
             games to advanced grammar challenges, we offer a diverse range of

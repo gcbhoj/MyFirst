@@ -1,9 +1,10 @@
 import React, { useState, useRef, useEffect } from "react";
 import Button from "./UIComponents/Button";
 import { IoMdSettings } from "react-icons/io";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  // settings for navbar dropdown
   const [isSettingsMenuOpen, setIsSettingsMenuOpen] = useState(false);
   const settingsBtnRef = useRef(null);
   const [dropdownPos, setDropdownPos] = useState({ top: 0, right: 0 });
@@ -11,7 +12,7 @@ const Navbar = () => {
   useEffect(() => {
     if (isSettingsMenuOpen && settingsBtnRef.current) {
       const rect = settingsBtnRef.current.getBoundingClientRect();
-      // You can adjust top and right depending on your design
+      // adjust top and right depending on your design
       setDropdownPos({
         top: rect.bottom + window.scrollY + 8, // 8px below the button
         right: window.innerWidth - rect.right - window.scrollX,
@@ -19,32 +20,39 @@ const Navbar = () => {
     }
   }, [isSettingsMenuOpen]);
 
+  //settings to set active status in navbar
+
+  const linkClass = ({ isActive }) =>
+    isActive
+      ? "bg-zinc-300 text-Zinc-600 hover:bg-sky-300 hover:text-sky-600 rounded-md px-3 py-2 h-12"
+      : "text-black hover:bg-gray-300 hover:text-black rounded-md px-3 py-2";
+
   return (
     <div className="relative  border-[rgba(93,163,153,0.8)] m-0.5 max-w-full h-20 rounded-2xl bg-gradient-to-bl from-zinc-400 to-[rgba(172,203,225,0.9)] shadow-md shadow-[rgba(245,239,255,.6)] flex items-center justify-end mb-0 ">
       <div className="flex flex-wrap items-center gap-4">
-        <Link to={"/"}>
+        <NavLink to="/" className={linkClass}>
           <Button width="w-20" height="h-12" label="Home" border="border-0" />
-        </Link>
+        </NavLink>
 
-        <Link to={"/games"}>
+        <NavLink to="/games" className={linkClass}>
           <Button width="w-20" height="h-12" label="Games" border="border-0" />
-        </Link>
-        <Link to={"/gallery"}>
+        </NavLink>
+        <NavLink to="/gallery" className={linkClass}>
           <Button
             width="w-20"
             height="h-12"
             label="gallery"
             border="border-0"
           />
-        </Link>
+        </NavLink>
 
         <Button width="w-20" height="h-12" label="events" border="border-0" />
-        <Link to={"/dashboard"}>
+        <NavLink to="/dashboard" className={linkClass}>
           <Button width="w-20" height="h-12" label="dash" border="border-0" />
-        </Link>
-        <Link to={"/signUp"}>
+        </NavLink>
+        <NavLink to="/signUp" className={linkClass}>
           <Button width="w-20" height="h-12" label="signup" border="border-0" />
-        </Link>
+        </NavLink>
 
         {/* Settings Button + Dropdown */}
         <div className="relative">

@@ -7,12 +7,12 @@ const Dashboard = () => {
   return (
     <>
       <Hero />
-      <div className="border m-1 mt-0 h-14 flex flex-wrap p-0.5 items-center justify-evenly">
-        <Link to={"/addGames"}>
+      <div className="m-1 mt-0 h-14 flex flex-wrap p-0.5 items-center justify-evenly">
+        <Link to={"/gamesPanel"}>
           <Button
             width="w-36"
             height="h-12"
-            label="Add Games"
+            label="games panel"
             background="bg-zinc-400"
             border="border-0"
           />
@@ -21,7 +21,7 @@ const Dashboard = () => {
           <Button
             width="w-36"
             height="h-12"
-            label="add to gallery"
+            label="gallery panel"
             background="bg-zinc-400"
             border="border-0"
           />
@@ -30,7 +30,7 @@ const Dashboard = () => {
           <Button
             width="w-36"
             height="h-12"
-            label="add to events"
+            label="events panel"
             background="bg-zinc-400"
             border="border-0"
           />

@@ -8,7 +8,7 @@ const Button = ({
   icon = "",
   margin = "m-0",
   border = "",
-  hoverBackground ="hover:text-sky-200",
+  hoverBackground ="hover:text-sky-600",
   onClick, // just declare the prop normally
 }) => {
   return (
