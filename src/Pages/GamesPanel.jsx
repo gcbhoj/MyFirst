@@ -22,7 +22,7 @@ const GamesPanel = () => {
         ))}
       </div>
       <div className="border m-1 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        <GameCard />
+
       </div>
     </>
   );

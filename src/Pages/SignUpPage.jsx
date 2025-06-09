@@ -1,9 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
+import { auth, googleProvider } from "../config/firebase.js";
+import {
+  createUserWithEmailAndPassword,
+  signInWithPopup,
+  signOut,
+} from "firebase/auth";
 import InputBox from "../components/UIComponents/InputBox";
 import Button from "../components/UIComponents/Button";
 import DummyHero from "../components/HeroComponent/Hero.jsx";
 
 const Auth = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  //console.log(auth.currentUser.email);
+
+  const signIn = async () => {
+    try {
+      await createUserWithEmailAndPassword(auth, email, password);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  const signInWithGoogle = async () => {
+    try {
+      await signInWithPopup(auth, googleProvider);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  const logOut = async () => {
+    try {
+      await signOut(auth);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
   return (
     <>
       <DummyHero statement="Join us today and be part of the SamskritaBharati family!" />
@@ -16,14 +51,16 @@ const Auth = () => {
           </h3>
 
           <InputBox
+            onChange={(e) => setEmail(e.target.value)}
             label="Email"
             width="w-56"
             height="h-9"
-            type="text"
+            type="email"
             name="email"
           />
 
           <InputBox
+            onChange={(e) => setPassword(e.target.value)}
             label="Password"
             width="w-56"
             height="h-9"
@@ -32,6 +69,7 @@ const Auth = () => {
           />
 
           <Button
+            onClick={signIn}
             label="Sign Up"
             width="w-32"
             height="h-10"
@@ -39,6 +77,24 @@ const Auth = () => {
             border="border-1"
             margin="m-10
           "
+          />
+          <Button
+            onClick={signInWithGoogle}
+            label="Google"
+            width="w-32"
+            height="h-10"
+            background="bg-stone-600"
+            border="border-1"
+            margin="mt-1"
+          />
+          <Button
+            onClick={logOut}
+            label="logout"
+            width="w-32"
+            height="h-10"
+            background="bg-stone-600"
+            border="border-1"
+            margin="mt-1"
           />
         </div>
       </div>

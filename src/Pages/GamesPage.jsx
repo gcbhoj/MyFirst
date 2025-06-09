@@ -25,7 +25,9 @@ const GamesPage = () => {
 
             <div className="overflow-x-auto whitespace-nowrap p-2">
               <div className="flex flex-nowrap gap-2">
-                <GameCard games={category.games} />
+                {category.games.map((game) => (
+                  <GameCard game= {game}/>
+                ))}
               </div>
             </div>
 
