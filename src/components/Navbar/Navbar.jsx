@@ -53,6 +53,9 @@ const Navbar = () => {
         <NavLink to="/signUp" className={linkClass}>
           <Button width="w-20" height="h-12" label="signup" border="border-0" />
         </NavLink>
+        <NavLink to="/movies" className={linkClass}>
+          <Button width="w-20" height="h-12" label="movies" border="border-0" />
+        </NavLink>
 
         {/* Settings Button + Dropdown */}
         <div className="relative">

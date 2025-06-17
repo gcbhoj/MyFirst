@@ -16,6 +16,10 @@ import AddEvents from "./Pages/AddEvents";
 import AddImages from "./Pages/AddImages";
 import ViewFeedback from "./Pages/ViewFeedback";
 import Gallery from "./Pages/Gallery";
+import ViewMovies from "./Pages/ViewMovies";
+import Movies from "./Pages/Movies";
+import AddMovies from "./Pages/AddMovies";
+import EditMovies from "./Pages/EditMovies";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -30,6 +34,10 @@ const router = createBrowserRouter(
       <Route path="/addImages" element={<AddImages />} />
       <Route path="/viewFeedback" element={<ViewFeedback />} />
       <Route path="/gallery" element={<Gallery />} />
+      <Route path="/movies" element={<Movies />} />
+      <Route path="/viewMovies" element={<ViewMovies />} />
+      <Route path="/addMovies" element={<AddMovies />} />
+      <Route path="/editMovies/:id" element={<EditMovies />} />
     </Route>
   )
 );
